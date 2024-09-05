@@ -1,0 +1,262 @@
+    1  cd .ssh
+    2  ls
+    3  vim authorized_keys 
+    4  ssh -i id_ed25519 ubuntu@ec2-3-15-224-115.us-east-2.compute.amazonaws.com
+    5  vim authorized_keys 
+    6  cd
+    7  ssh-keygen 
+    8  cd .ssh
+    9  ls
+   10  cat id_ed25519.pub 
+   11  ssh -i id_ed25519 ubuntu@ec2-3-15-224-115.us-east-2.compute.amazonaws.com
+   12  systemctl status ssh
+   13  sudo apt-get update 
+   14  sudo apt install docker.io
+   15  systemctl status docker.s
+   16  systemctl status docker.io
+   17  systemctl status docker
+   18  service docker 
+   19  ls
+   20  mkdir scripts
+   21  ls
+   22  cd scripts/
+   23  ls
+   24  touch test.txt
+   25  ls
+   26  vim hello.sh
+   27  clear
+   28  bash hello.sh 
+   29  vim pankaj.sh
+   30  bash pankaj.sh
+   31  vim pankaj.sh
+   32  chmod 700 pankaj.sh
+   33  ./pankaj.sh
+   34  vim pankaj.sh
+   35  ./pankaj.sh
+   36  vim pankaj.sh
+   37  ./pankaj.sh
+   38  vim pankaj.sh
+   39  ./pankaj.sh
+   40  vim pankaj.sh
+   41  ./pankaj.sh
+   42  df -h | awk 'print $2' 
+   43  df -h | awk '{print $2}' 
+   44  df -h | awk 'NR==2 {print $2}' 
+   45  free -h
+   46  free -h | awk 'NR==2 {print $2}'
+   47  vim pankaj.sh
+   48  ./pankaj.sh
+   49  vim pankaj.sh
+   50  ./pankaj.sh
+   51  vim pankaj.sh 
+   52  ./pankaj.sh
+   53  vim pankaj.sh 
+   54  ./pankaj.sh
+   55  vim pankaj.sh 
+   56  ./pankaj.sh
+   57  clear
+   58  ls
+   59  cd scripts/
+   60  ls
+   61  vim pankaj.sh 
+   62  ./pankaj.sh 
+   63  vim pankaj.sh 
+   64  ./pankaj.sh 
+   65  vim pankaj.sh 
+   66  ./pankaj.sh 
+   67  vim pankaj.sh 
+   68  ./pankaj.sh 
+   69  vim pankaj.sh 
+   70  ./pankaj.sh 
+   71  vim pankaj.sh 
+   72  ./pankaj.sh 
+   73  vim create_user.sh
+   74  chmod 700 create_user.sh 
+   75  ./create_user.sh 
+   76  vim create_user.sh
+   77  ./create_user.sh 
+   78  cat /ect/passwd
+   79  cat /etc/passwd
+   80  vim create_user.sh
+   81  ./create_user.sh 
+   82  cat /etc/passwd
+   83  su user
+   84  vim create_user.sh 
+   85  ./create_user.sh 
+   86  cat /etc/passwd
+   87  clear
+   88  ls
+   89  cd scripts/
+   90  vim backup.sh
+   91  chmod 700 backup.sh
+   92  pwd
+   93  vim backup.sh
+   94  ./backup.sh 
+   95  vim backup.sh
+   96  ./backup.sh 
+   97  vim backup.sh
+   98  ./backup.sh 
+   99  vim backup.sh
+  100  ./backup.sh 
+  101  vim backup.sh
+  102  ./backup.sh /home/ubuntu/scripts
+  103  sudo apt-get install zip
+  104  ./backup.sh /home/ubuntu/scripts
+  105  vim backup.sh
+  106  ./backup.sh /home/ubuntu/scripts
+  107  ls
+  108  ls -la
+  109  ls -l
+  110  vim backup.sh
+  111  cd
+  112  ls
+  113  mkdir backup
+  114  cd backup/
+  115  pwd
+  116  cd
+  117  cd scripts/
+  118  pwd
+  119  ./backup.sh /home/ubuntu/scripts /home/ubuntu/backup
+  120  cd /home/ubuntu/backup
+  121  ls
+  122  vim backup.sh
+  123  ls
+  124  rm backup.sh 
+  125  ls
+  126  cd
+  127  cd scripts/
+  128  ls
+  129  vim backup.sh 
+  130  cd scripts/
+  131  ls
+  132  vim backup.sh 
+  133  ./backup.sh /home/ubuntu/scripts /home/ubuntu/backup
+  134  cd /home/ubuntu/backup/
+  135  ls
+  136  cd /home/ubuntu/scripts/
+  137  ls
+  138  vim backup.sh
+  139  rm backup.sh
+  140  ls
+  141  vim backup.sh
+  142  rm backup.sh
+  143  vim backup1.sh
+  144  ./backup1.sh /home/ubuntu/scripts /home/ubuntu/backup
+  145  chmod 700 backup1.sh 
+  146  ./backup1.sh /home/ubuntu/scripts /home/ubuntu/backup
+  147  vim backup1.sh
+  148  ./backup1.sh /home/ubuntu/scripts /home/ubuntu/backup
+  149  cd /home/ubuntu/backup
+  150  ls
+  151  clear
+  152  ls
+  153  ls -t
+  154  cd /home/ubuntu/scripts/
+  155  vim backup1.sh 
+  156  ./backup1.sh /home/ubuntu/scripts /home/ubuntu/backup
+  157  vim backup1.sh 
+  158  ./backup1.sh /home/ubuntu/scripts /home/ubuntu/backup
+  159  vim backup1.sh 
+  160  ./backup1.sh /home/ubuntu/scripts /home/ubuntu/backup
+  161  vim backup1
+  162  vim backup1.sh 
+  163  ls
+  164  cd scripts/\
+  165  cd scripts/
+  166  ls
+  167  vim backup1.sh 
+  168  rm backup1.sh 
+  169  vim backup2.sh 
+  170  chmod 700 backup2.sh 
+  171  ./backup2.sh /home/ubuntu/scripts/ /home/ubuntu/backup/
+  172  vim backup2.sh 
+  173  ./backup2.sh /home/ubuntu/scripts/ /home/ubuntu/backup/
+  174  vim backup2.sh 
+  175  ./backup2.sh /home/ubuntu/scripts/ /home/ubuntu/backup/
+  176  cd /home/ubuntu/backup
+  177  ls
+  178  cd /home/ubuntu/script
+  179  cd /home/ubuntu/scripts/
+  180  vim backup2.sh 
+  181  ./backup2.sh /home/ubuntu/scripts/ /home/ubuntu/backup/
+  182  cd /home/ubuntu/backup
+  183  ls
+  184  crontab 
+  185  crontab -e
+  186  rm backup_2024-09-03-08-26-*
+  187  ls
+  188  crontab -e
+  189  ls
+  190  clear
+  191  ls
+  192  sudo dnf install git-all
+  193  sudo apt install git-all
+  194  git --version 
+  195  apt-get install git
+  196  sudo apt-get install git
+  197  git
+  198  git --version 
+  199  clear
+  200  git --version
+  201  mkdir git-tutorial
+  202  cd git-tutorial/
+  203  mkdir devops-project
+  204  mkdir devops-sample-project
+  205  ls
+  206  cd devops-sample-project/
+  207  git init
+  208  ls -a
+  209  cd .git/
+  210  ls
+  211  cd
+  212  cd devops-sample-project/
+  213  cd git-tutorial/
+  214  cd devops-sample-project/
+  215  touch file1.txt
+  216  touch file2.txt
+  217  ls -l
+  218  git status
+  219  clear
+  220  git add file1.txt 
+  221  git status
+  222  git add file2.txt 
+  223  git status
+  224  git commit -m "file1 and file2 added"
+  225  ls -l
+  226  ls
+  227  git status
+  228  clear
+  229  git log
+  230  git config --global user.name "Pankaj2130" 
+  231  git config --global user.email "ppankaj2130@gmail.com" 
+  232  clear
+  233  cd git-tutorial/
+  234  cd devops-sample-project/
+  235  ls
+  236  git checkout -b dev
+  237  vim file3.txt
+  238  git add file3.txt 
+  239  git commit -m "add file 3 on dev branch"
+  240  git log --oneline 
+  241  git switch master 
+  242  ls
+  243  cd git-tutorial/
+  244  git status
+  245  cd .ssh
+  246  cd
+  247  cd .ssh
+  248  ls
+  249  rm id_ed25519 id_ed25519.pub 
+  250  ls
+  251  ssh-keygen 
+  252  ls
+  253  cat id_ed25519.pub 
+  254  cd
+  255  cd git-tutorial/
+  256  git clone git@github.com:PankajPowar/test.git
+  257  git status
+  258  cd test/
+  259  git status
+  260  vim test.txt
+  261  rm test.txt 
+  262  history >> command.txt
